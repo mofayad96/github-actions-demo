@@ -6,5 +6,5 @@ module.exports=greet;
 
 if(require.main=module)
 {
-    console.log(greet("mohamed"));
+    console.log(greet("World"));
 }
