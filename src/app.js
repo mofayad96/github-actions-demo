@@ -1,10 +1,10 @@
-function greet(name){
+function greet(name) {
     return `Hello, ${name}!`;
 }
 
-module.exports=greet;
+module.exports = greet;
 
-if(require.main=module)
-{
+// Run this only when executed directly (not when required)
+if (require.main === module) {
     console.log(greet("World"));
 }
