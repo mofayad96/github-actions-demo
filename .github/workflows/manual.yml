@@ -1,10 +1,8 @@
 on: 
   workflow_dispatch: # Gui or CLI
-
-
-  jobs:
-    deploy: 
-      runs-on: ubuntu-latest
-      steps:
-        - name: deploy app
-          run: echo"deploying the application...."
+jobs:
+  deploy: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: deploy app
+        run: echo"deploying the application...."
